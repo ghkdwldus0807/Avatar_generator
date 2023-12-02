@@ -29,6 +29,20 @@ pip install opencv-contrib-python dlib
 7. 마침내 생성된 아바타의 이미지 URL이 터미널에 뜬다면, 아바타 생성에 성공하신 것입니다 😊😊
 
 ---------
+## 😄DEMO & EXAMPLE 
+
+프로젝트가 성공적으로 실행되면 Terminal에 아래와 같은 질문이 뜹니다.
+```
+"Is your avatar wearing glasses? (y (glasses)/ n (no glasses!)) : "
+```
+원하는 답변을 선택하시면 아래에 생성된 아바타의 사진 링크가 제공됩니다. 클릭하시면 아바타의 사진이 뜹니다!  
+![title](https://github.com/ghkdwldus0807/Avatar_generator/blob/main/source/howtouselink.png?raw=true)   
+
+아래는 BLACKPINK의 JENNIE의 사진을 이용하여 아바타를 생성한 예시입니다. (실제 생성된 아바타의 링크에는 오른쪽 아바타의 사진만 뜹니다.)
+
+![title](https://github.com/ghkdwldus0807/Avatar_generator/blob/main/source/example.png?raw=true)   
+
+-----------
 
 ## 🗝️Models 
 
@@ -40,11 +54,24 @@ pip install opencv-contrib-python dlib
 
 1. Kaggle의 "Animal Faces" Dataset을 활용해 학습하였습니다. 해당 dataset에는 dog와 cat 이외의 wild라는 폴더의 dataset도 있지만, 해당 모델을 학습시킬 때에는 dog, cat의 데이터만 이용하였습니다.   
    Dataset 출처 : [Kaggle 'Animal Faces'](https://www.kaggle.com/datasets/andrewmvd/animal-faces/data)
-2. Keras를 이용해 CNN 구조를 만들었습니다.
+2. Keras를 이용해 CNN 구조를 만들었습니다.   
+![title](https://github.com/ghkdwldus0807/Avatar_generator/blob/main/source/dog_cat_classifier_model_accuracy.png?raw=true)
+
 
 
 ### 💞age_gender_model 
 
 1. age_gender_model은 사전에 학습된 model을 사용하였습니다. model의 출처는 아래와 같습니다.
    https://github.com/GilLevi/AgeGenderDeepLearning/tree/master
+
+-----------
+
+## References 
+References는 아래와 같습니다.   
+https://gatherhere.tistory.com/14?category=863933   
+https://lsjsj92.tistory.com/387   
+
+
+
+
 
