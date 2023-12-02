@@ -21,7 +21,7 @@ pip install opencv-contrib-python dlib
 ```
 (만약 pip install opencv-contrib-python dlib 단계에서 오류가 발생한다면, 해당 코드를 다시 입력해보세요.대부분 설치가 성공적으로 완료됩니다.)
 
-2. source, data 폴더를 제외한 github에 올려져 있는 파일을 모두 다운 받으세요.
+2. **source, data 폴더 및  main_model.ipynb 파일을 제외한** github에 올려져 있는 파일을 모두 다운 받으세요.
 3. **main.py** 파일을 엽니다.
 4. main.py의 주석 내용을 참고하여 사용자의 LOCAL 환경에 맞게 **Model들의 경로를 재지정**해주시고, **발급받은 OPEN AI API KEY**도 붙여넣어주세요.
 5. 그리고 아바타를 생성하길 원하는 사진도 img 경로에 지정해주세요
